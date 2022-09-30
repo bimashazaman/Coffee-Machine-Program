@@ -95,16 +95,19 @@ while is_on:
    # to lowercase.
     choice = input(
         "What would you like? (espresso/latte/cappuccino): ").lower()
+    
     # This is a conditional statement that will break the loop if the user inputs "off"
     if choice == "off":
         print("The machine is now off.")
         is_on = False
+        
    # This is printing the resources and profit.
     elif choice == "report":
         print(f"Water: {resources['water']}ml")
         print(f"Milk: {resources['milk']}ml")
         print(f"Coffee: {resources['coffee']}g")
         print(f"Money: ${profit}")
+        
    # This is a conditional statement that is checking if the user has inputted a drink that is in the
    # menu. If it is, then it will check if the resources are sufficient. If they are, then it will ask
    # for the money. If the money is sufficient, then it will print the change and the drink.
