@@ -1,9 +1,6 @@
 
 
 # Defining the menu of the coffee machine.
-from secrets import choice
-
-
 Menu = {
     "espresso": {
         "ingredients": {
@@ -100,6 +97,7 @@ while is_on:
         "What would you like? (espresso/latte/cappuccino): ").lower()
     # This is a conditional statement that will break the loop if the user inputs "off"
     if choice == "off":
+        print("The machine is now off.")
         is_on = False
    # This is printing the resources and profit.
     elif choice == "report":
