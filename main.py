@@ -1,6 +1,6 @@
 
 
-# Defining the menu of the coffee machine.
+# Defining the menu with ingredients of the coffee machine.
 Menu = {
     "espresso": {
         "ingredients": {
