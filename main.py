@@ -171,4 +171,4 @@ while is_on:
             #                 for item in drink["ingredients"]:
             #                     resources[item] -= drink["ingredients"][item]
             #             else:
-            #                 print("Sorry that's not enough money. Money refunded.")
+            #                 print("Sorry that's not enough money. Money refunded!")
